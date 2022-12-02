@@ -8,4 +8,7 @@ sudo ln -s /var/lib/snapd/snap /snap
 sudo snap install leagueoflegends --edge --devmode
 sudo snap refresh --candidate wine-platform-5-staging
 sudo snap refresh --candidate wine-platform-runtime
+figlet "Finished!"
+sleep 5
+clear
 sudo leagueoflegends
